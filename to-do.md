@@ -2,7 +2,7 @@
 
 ## Fase 1: Configuração Inicial
 - [ ✅ ] Gerar o projeto base no [Spring Initializr](https://start.spring.io/) (Dependências sugeridas: *Spring Web*).
-- [ ] Inicializar o repositório Git local (`git init`).
+- [ ✅ ] Inicializar o repositório Git local (`git init`).
 - [ ] Abrir o projeto na sua IDE (ex: IntelliJ) e estruturar os pacotes base (`controller`, `service`, `dto`).
 
 ## Fase 2: Construção do Backend (Java + Spring Boot)
