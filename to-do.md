@@ -1,18 +1,18 @@
 # To-Do: Projeto Calculadora (Spring Boot + HTML/CSS/JS)
 
 ## Fase 1: Configuração Inicial
-- [ ✅ ] Gerar o projeto base no [Spring Initializr](https://start.spring.io/) (Dependências sugeridas: *Spring Web*).
-- [ ✅ ] Inicializar o repositório Git local (`git init`).
-- [ ] Abrir o projeto na sua IDE (ex: IntelliJ) e estruturar os pacotes base (`controller`, `service`, `dto`).
+- [✅] Gerar o projeto base no [Spring Initializr](https://start.spring.io/) (Dependências sugeridas: *Spring Web*).
+- [✅] Inicializar o repositório Git local (`git init`).
+- [✅] Abrir o projeto na sua IDE (ex: IntelliJ) e estruturar os pacotes base (`controller`, `service`, `dto`).
 
 ## Fase 2: Construção do Backend (Java + Spring Boot)
-- [ ] **DTOs (Data Transfer Objects):**
-    - [ ] Criar classe `CalculoRequest` (com os atributos: `numero1`, `numero2`, `operador`).
-    - [ ] Criar classe `CalculoResponse` (com o atributo: `resultado`).
-- [ ] **Service (Lógica de Negócio):**
-    - [ ] Criar a classe `CalculadoraService`.
-    - [ ] Implementar os métodos de soma, subtração, multiplicação e divisão.
-    - [ ] Adicionar tratamento de erro (ex: lançar exceção ao tentar dividir por zero).
+- [✅] **DTOs (Data Transfer Objects):**
+    - [✅] Criar classe `CalculoRequest` (com os atributos: `numero1`, `numero2`, `operador`).
+    - [✅] Criar classe `CalculoResponse` (com o atributo: `resultado`).
+- [✅] **Service (Lógica de Negócio):**
+    - [✅] Criar a classe `CalculadoraService`.
+    - [✅] Implementar os métodos de soma, subtração, multiplicação e divisão.
+    - [✅] Adicionar tratamento de erro (ex: lançar exceção ao tentar dividir por zero).
 - [ ] **Controller (API REST):**
     - [ ] Criar a classe `CalculadoraController` anotada com `@RestController`.
     - [ ] Implementar um endpoint `POST /api/calcular` que recebe o `CalculoRequest`, chama o Service e retorna o `CalculoResponse`.

@@ -7,8 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/calculadora")
 public class CalculadoraController {
-    @GetMapping("/ola")
-    public String ola() {
-        return "ola, devTools cb nc";
-    }
+    
 }
