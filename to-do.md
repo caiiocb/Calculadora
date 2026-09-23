@@ -13,11 +13,11 @@
     - [✅] Criar a classe `CalculadoraService`.
     - [✅] Implementar os métodos de soma, subtração, multiplicação e divisão.
     - [✅] Adicionar tratamento de erro (ex: lançar exceção ao tentar dividir por zero).
-- [ ] **Controller (API REST):**
-    - [ ] Criar a classe `CalculadoraController` anotada com `@RestController`.
-    - [ ] Implementar um endpoint `POST /api/calcular` que recebe o `CalculoRequest`, chama o Service e retorna o `CalculoResponse`.
-- [ ] **Testes de API:**
-    - [ ] Testar o endpoint usando Postman, Insomnia ou uma extensão da IDE para garantir que as operações matemáticas estão retornando o JSON correto.
+- [✅] **Controller (API REST):**
+    - [✅] Criar a classe `CalculadoraController` anotada com `@RestController`.
+    - [✅] Implementar um endpoint `POST /api/calcular` que recebe o `CalculoRequest`, chama o Service e retorna o `CalculoResponse`.
+- [✅] **Testes de API:**
+    - [✅] Testar o endpoint usando Postman, Insomnia ou uma extensão da IDE para garantir que as operações matemáticas estão retornando o JSON correto.
 
 ## Fase 3: Construção do Frontend (Arquivos Estáticos)
 *Nota: Você pode colocar estes arquivos dentro da pasta `src/main/resources/static` do Spring Boot para rodar tudo no mesmo servidor (localhost:8080).*
